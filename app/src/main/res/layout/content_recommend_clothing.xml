@@ -22,8 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.09"
             android:ems="10"
-            android:inputType="date"
-            android:text="start date" />
+            android:inputType="date" />
 
         <EditText
             android:id="@+id/endDate"
@@ -31,8 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.08"
             android:ems="10"
-            android:inputType="date"
-            android:text="end date" />
+            android:inputType="date" />
 
         <LinearLayout
             android:layout_width="match_parent"
