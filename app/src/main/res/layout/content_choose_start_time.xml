@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.zishen.linkedinhack.ChooseTimeActivity"
-    tools:showIn="@layout/activity_choose_time">
+    tools:context="com.example.zishen.linkedinhack.ChooseStartTimeActivity"
+    tools:showIn="@layout/activity_choose_start_time">
 
 </android.support.constraint.ConstraintLayout>

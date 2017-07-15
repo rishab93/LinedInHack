@@ -16,14 +16,9 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ChooseTimeActivity"
+            android:name=".ChooseStartTimeActivity"
             android:label="@string/title_activity_choose_time"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ChooseLocationActivity"
@@ -32,6 +27,27 @@
         <activity
             android:name=".ClothingHabitQuizActivity"
             android:label="@string/title_activity_clothing_habit_quiz"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChooseEndTimeActivity"
+            android:label="@string/title_activity_choose_end_time"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quiz1"
+            android:label="@string/title_activity_quiz1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quiz2"
+            android:label="@string/title_activity_quiz2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quiz3"
+            android:label="@string/title_activity_quiz3"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

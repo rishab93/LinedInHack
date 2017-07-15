@@ -9,20 +9,19 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class ClothingHabitQuizActivity extends AppCompatActivity {
+public class ChooseEndTimeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clothing_habit_quiz);
+        setContentView(R.layout.activity_choose_end_time);
 
-        Button startQuiz = (Button) findViewById(R.id.startQuiz);
-        startQuiz.setOnClickListener(new View.OnClickListener() {
+        Button finishEnterEndTime = (Button) findViewById(R.id.finishEnterEndTime);
+        finishEnterEndTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ClothingHabitQuizActivity.this, Quiz1.class));
+                startActivity(new Intent(ChooseEndTimeActivity.this, ChooseLocationActivity.class));
             }
         });
     }
-
 }

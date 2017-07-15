@@ -4,4 +4,8 @@
     <string name="title_activity_choose_time">ChooseTimeActivity</string>
     <string name="title_activity_choose_location">ChooseLocationActivity</string>
     <string name="title_activity_clothing_habit_quiz">ClothingHabitQuizActivity</string>
+    <string name="title_activity_choose_end_time">ChooseEndTimeActivity</string>
+    <string name="title_activity_quiz1">Quiz1</string>
+    <string name="title_activity_quiz2">Quiz2</string>
+    <string name="title_activity_quiz3">Quiz3</string>
 </resources>

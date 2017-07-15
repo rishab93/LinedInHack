@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.zishen.linkedinhack.ChooseTimeActivity">
+    tools:context="com.example.zishen.linkedinhack.ChooseEndTimeActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -13,16 +13,17 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_choose_time"
-        android:id="@+id/include" />
+    <include layout="@layout/content_choose_end_time"
+        android:id="@+id/include3" />
 
     <Button
-        android:id="@+id/finishEnterTime"
+        android:id="@+id/finishEnterEndTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|center_horizontal"
+        android:layout_weight="0.05"
         android:text="continue"
-        app:layout_anchor="@+id/include"
+        app:layout_anchor="@+id/include3"
         app:layout_anchorGravity="bottom|center_horizontal" />
 
     <LinearLayout
@@ -32,31 +33,19 @@
         android:weightSum="1">
 
         <TextView
-            android:id="@+id/titleChooseTime"
+            android:id="@+id/titleChooseEndTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.05"
-            android:text="Choose the time of your trip:"
+            android:text="Choose the end date of your trip:"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="18sp" />
 
-        <EditText
-            android:id="@+id/startDate"
+        <DatePicker
+            android:id="@+id/endDatePicker"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="start date"
-            android:layout_weight="0.12" />
+            android:layout_height="465dp" />
 
-        <EditText
-            android:id="@+id/endDate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.12"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="end date" />
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>

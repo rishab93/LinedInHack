@@ -13,6 +13,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_recommend_clothing" />
 
 </android.support.design.widget.CoordinatorLayout>

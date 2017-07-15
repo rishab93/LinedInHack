@@ -6,18 +6,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class ChooseTimeActivity extends AppCompatActivity {
+public class ChooseStartTimeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choose_time);
+        setContentView(R.layout.activity_choose_start_time);
 
-        Button finishEnterTime = (Button) findViewById(R.id.finishEnterTime);
-        finishEnterTime.setOnClickListener(new View.OnClickListener() {
+        Button finishEnterStartTime = (Button) findViewById(R.id.finishEnterStartTime);
+        finishEnterStartTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ChooseTimeActivity.this, ChooseLocationActivity.class));
+                startActivity(new Intent(ChooseStartTimeActivity.this, ChooseEndTimeActivity.class));
             }
         });
     }
