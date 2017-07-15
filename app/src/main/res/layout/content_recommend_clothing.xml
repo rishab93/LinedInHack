@@ -42,8 +42,8 @@
 
             <ImageView
                 android:id="@+id/weather"
-                android:layout_width="138dp"
-                android:layout_height="137dp"
+                android:layout_width="120dp"
+                android:layout_height="126dp"
                 app:srcCompat="@drawable/sunny" />
 
             <LinearLayout
@@ -62,7 +62,7 @@
                     android:id="@+id/destinationAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.25"
+                    android:layout_weight="0.40"
                     android:fontFamily="sans-serif"
                     android:text="Sunnyvale, CA, USA  94085"
                     android:textAlignment="center"
@@ -73,14 +73,24 @@
 
         </LinearLayout>
 
-        <EditText
-            android:id="@+id/clothingRecommendation"
+        <TextView
+            android:id="@+id/tempratureRange"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.61"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="clothing recommendation" />
+            android:layout_weight="0.09"
+            android:fontFamily="sans-serif"
+            android:text="Highest: 90°F   Lowest: 55°F"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/recommendation"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            app:srcCompat="@drawable/cat_dress"
+            android:layout_weight="0.20" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
