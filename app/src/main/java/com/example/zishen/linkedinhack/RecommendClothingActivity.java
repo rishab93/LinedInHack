@@ -17,13 +17,13 @@ public class RecommendClothingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_recommend_clothing);
 
         SharedPreferences prefs = getSharedPreferences("yo", MODE_PRIVATE);
-        EditText sText = (EditText) findViewById(R.id.startDate);
+        TextView sText = (TextView) findViewById(R.id.startDate);
 
-        EditText eText = (EditText) findViewById(R.id.endDate);
+        TextView eText = (TextView) findViewById(R.id.endDate);
 
-        sText.setText(prefs.getString("startDate", null));
+        sText.setText("Trip start date: " + prefs.getString("startDate", null));
 
-        eText.setText(prefs.getString("endDate", null));
+        eText.setText("Trip end date: " + prefs.getString("endDate", null));
 
 
     }
