@@ -15,25 +15,26 @@
 
     <include layout="@layout/content_my_outfit" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="casual"
-        android:text="My Wishlist"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="24sp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:weightSum="1">
 
+        <TextView
+            android:id="@+id/titleMyWishlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="My Wishlist"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="24sp" />
+
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="176dp"
-            android:layout_height="410dp"
+            android:id="@+id/wishListItem"
+            android:layout_width="336dp"
+            android:layout_height="292dp"
             app:srcCompat="@drawable/cat_dress" />
     </LinearLayout>
 
