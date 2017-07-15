@@ -37,14 +37,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.05"
-            android:text="Choose the end date of your trip:"
+            android:fontFamily="casual"
+            android:text="End date of your trip:"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textSize="18sp" />
+            android:textSize="30sp" />
 
-        <DatePicker
-            android:id="@+id/endDatePicker"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="465dp" />
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+            <DatePicker
+                android:id="@+id/endDatePicker"
+                android:layout_width="match_parent"
+                android:layout_height="465dp"
+                android:layout_weight="1" />
+        </LinearLayout>
 
     </LinearLayout>
 
