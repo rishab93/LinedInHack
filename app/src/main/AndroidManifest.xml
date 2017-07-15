@@ -14,7 +14,7 @@
         <activity
             android:name=".RecommendClothingActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ChooseTimeActivity"
             android:label="@string/title_activity_choose_time"
@@ -28,6 +28,10 @@
         <activity
             android:name=".ChooseLocationActivity"
             android:label="@string/title_activity_choose_location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClothingHabitQuizActivity"
+            android:label="@string/title_activity_clothing_habit_quiz"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
