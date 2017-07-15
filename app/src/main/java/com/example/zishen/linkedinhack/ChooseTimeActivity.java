@@ -17,7 +17,7 @@ public class ChooseTimeActivity extends AppCompatActivity {
         finishEnterTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ChooseTimeActivity.this, RecommendClothingActivity.class));
+                startActivity(new Intent(ChooseTimeActivity.this, ChooseLocationActivity.class));
             }
         });
     }
