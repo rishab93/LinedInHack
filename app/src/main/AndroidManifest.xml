@@ -18,8 +18,7 @@
         <activity
             android:name=".ChooseStartTimeActivity"
             android:label="@string/title_activity_choose_time"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".ChooseLocationActivity"
             android:label="@string/title_activity_choose_location"
@@ -30,6 +29,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -48,6 +48,10 @@
         <activity
             android:name=".Quiz3"
             android:label="@string/title_activity_quiz3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyOutfit"
+            android:label="@string/title_activity_my_outfit"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
